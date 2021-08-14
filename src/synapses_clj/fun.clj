@@ -36,7 +36,7 @@
     (fn [_] (rand)))
   ```"
   (:refer-clojure :exclude [identity])
-  (:import (synapeses_clj_jvm Help)))
+  (:import (synapses.model.net_elems.activation Activation$)))
 
 (def sigmoid
   "Sigmoid takes any value as input and returns values in the range of 0.0 to 1.0.
@@ -45,7 +45,7 @@
   (fn [x] (/ (inc (Math/exp (- x)))))
   ```
   "
-  Help/SIGMOID)
+  Activation$/Sigmoid)
 
 (def identity
   "Identity is a linear function where the output is equal to the input.
@@ -53,7 +53,7 @@
   ```clojure
   (fn [x] x)
   ```"
-  Help/IDENTITY)
+  Activation$/Identity)
 
 (def tanh
   "Tanh is similar to Sigmoid, but outputs values in the range of -1.0 and 1.0.
@@ -61,7 +61,7 @@
   ```clojure
   (fn [x] (Math/tanh x))
   ```"
-  Help/TANH)
+  Activation$/Tanh)
 
 (def leaky-re-lu
   "Leaky-re-lu gives a small proportion of x if x is negative and x otherwise.
@@ -72,4 +72,4 @@
       (* x 0.01)
       x))
   ```"
-  Help/LEAKY_RE_LU)
+  Activation$/LeakyReLU)

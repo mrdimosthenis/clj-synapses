@@ -6,7 +6,6 @@
   :scm {:name "git" :url "https://github.com/mrdimosthenis/synapses-clj"}
   :dependencies [[com.github.mrdimosthenis/synapses_3 "8.0.0"]
                  [org.clojure/clojure "1.10.3"]]
-  :java-source-paths ["src/synapeses_clj_jvm"]
   :profiles {:test {:resource-paths ["test-resources"]
                    :dependencies [[org.clojure/data.csv "1.0.0"]]}}
   :deploy-repositories [["releases" {:url "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
