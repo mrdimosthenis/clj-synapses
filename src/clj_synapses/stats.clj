@@ -1,8 +1,8 @@
-(ns synapses-clj.stats
+(ns clj-synapses.stats
   "Measure the difference between the values predicted by a neural network and the observed values.
 
   ```clojure
-  (require '[synapses-clj.stats :as stats])
+  (require '[clj-synapses.stats :as stats])
   ```
   
   Calculate the root mean square error:

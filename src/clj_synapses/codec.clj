@@ -1,11 +1,11 @@
-(ns synapses-clj.codec
+(ns clj-synapses.codec
   "A codec can encode and decode every data point.
 
   One hot encoding is a process that turns discrete attributes into a list of 0.0 and 1.0.
   Minmax normalization scales continuous attributes into values between 0.0 and 1.0.
 
   ```clojure
-  (require '[synapses-clj.codec :as codec])
+  (require '[clj-synapses.codec :as codec])
   ```
 
   There are two ways to create a codec:

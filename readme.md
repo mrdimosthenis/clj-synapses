@@ -1,4 +1,4 @@
-# synapses-clj
+# clj-synapses
 
 A **neural networks** library for **Clojure**!
 
@@ -7,13 +7,13 @@ A **neural networks** library for **Clojure**!
 ### Install synapses
 
 ```clojure
-[com.github.mrdimosthenis/synapses-clj "1.0.0"]
+[org.clojars.mrdimosthenis/clj-synapses "1.0.0"]
 ```
 
 ### Load the `net` namespace
 
 ```clojure
-(require '[synapses-clj.net :as net])
+(require '[clj-synapses.net :as net])
 ```
 
 ### Create a random neural network by providing its layer sizes
@@ -109,7 +109,7 @@ We can provide a `seed` to create a non-random neural network. This way, we can 
 ### Define the activation functions and the weights
 
 ```clojure
-(require '[synapses-clj.fun :as fun])
+(require '[clj-synapses.fun :as fun])
 
 (defn activation-f
   [layer-index]
@@ -152,7 +152,7 @@ function while the transparency of the synapses depends on their weight.
 ### Measure the difference between the expected and predicted values
 
 ```clojure
-(require '[synapses-clj.stats :as stats])
+(require '[clj-synapses.stats :as stats])
 
 (def exp-and-pred-vals
   [[[0.0 0.0 1.0] [0.0 0.1 0.9]]
@@ -181,7 +181,7 @@ function while the transparency of the synapses depends on their weight.
 ### Load the `codec` namespace
 
 ```clojure
-(require '[synapses-clj.codec :as codec])
+(require '[clj-synapses.codec :as codec])
 ```
 
 * One hot encoding is a process that turns discrete attributes into a list of 0.0 and 1.0.

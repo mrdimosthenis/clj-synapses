@@ -1,7 +1,7 @@
-(ns synapses-clj.custom-network-test
+(ns clj-synapses.custom-network-test
   (:require [clojure.test :refer :all]
-            [synapses-clj.net :as net]
-            [synapses-clj.fun :as fun])
+            [clj-synapses.net :as net]
+            [clj-synapses.fun :as fun])
   (:import (java.util Random)))
 
 (def input-values [1.0, 0.5625, 0.511111, 0.47619])

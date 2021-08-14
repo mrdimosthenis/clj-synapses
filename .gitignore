@@ -11,4 +11,4 @@ pom.xml.asc
 .hgignore
 .hg/
 /.idea/
-/synapses-clj.iml
+/clj-synapses.iml

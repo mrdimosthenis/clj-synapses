@@ -1,6 +1,6 @@
-(ns synapses-clj.codec-test
+(ns clj-synapses.codec-test
   (:require [clojure.test :refer :all]
-            [synapses-clj.codec :as codec]
+            [clj-synapses.codec :as codec]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]))
 

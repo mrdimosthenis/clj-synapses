@@ -1,6 +1,6 @@
-(ns synapses-clj.seed-network-test
+(ns clj-synapses.seed-network-test
   (:require [clojure.test :refer :all]
-            [synapses-clj.net :as net]))
+            [clj-synapses.net :as net]))
 
 (def layer-sizes [4, 6, 5, 3])
 

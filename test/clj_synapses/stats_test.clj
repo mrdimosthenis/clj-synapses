@@ -1,6 +1,6 @@
-(ns synapses-clj.stats-test
+(ns clj-synapses.stats-test
   (:require [clojure.test :refer :all]
-            [synapses-clj.stats :as stats]))
+            [clj-synapses.stats :as stats]))
 
 (deftest test-rmse
   (is (= 0.7071067811865476

@@ -1,9 +1,9 @@
-(ns synapses-clj.readme-test
+(ns clj-synapses.readme-test
   (:require [clojure.test :refer :all]
-            [synapses-clj.net :as net]
-            [synapses-clj.fun :as fun]
-            [synapses-clj.codec :as codec]
-            [synapses-clj.stats :as stats]))
+            [clj-synapses.net :as net]
+            [clj-synapses.fun :as fun]
+            [clj-synapses.codec :as codec]
+            [clj-synapses.stats :as stats]))
 
 (def rand-network
   (net/->net

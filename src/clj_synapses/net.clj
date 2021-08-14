@@ -1,8 +1,8 @@
-(ns synapses-clj.net
+(ns clj-synapses.net
   "This namespace contains all the functions that are related to the neural networks.
 
   ```clojure
-  (require '[synapses-clj.net :as net])
+  (require '[clj-synapses.net :as net])
   ```
 
   There are four ways to create a neural network:
@@ -32,7 +32,7 @@
   4. By providing the size, the activation function and the weights for each layer.
 
   ```clojure
-  (require '[synapses-clj.fun :as fun])
+  (require '[clj-synapses.fun :as fun])
 
   (net/->net
     [2 3 1]

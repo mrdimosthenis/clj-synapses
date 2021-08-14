@@ -1,11 +1,11 @@
-(ns synapses-clj.fun
+(ns clj-synapses.fun
   "The activation functions a neuron can have.
 
   They can be used in the arguments of neural network's creation.
 
   ```clojure
-  (require '[synapses-clj.net :as net]
-           '[synapses-clj.fun :as fun])
+  (require '[clj-synapses.net :as net]
+           '[clj-synapses.fun :as fun])
   ```
 
   ```clojure
