@@ -36,7 +36,7 @@ A **neural networks** library for **Clojure**!
 ;;=> "[[{\"activationF\" : \"sigmoid\", \"weights\" : [-0.5,0.1,0.8]},
 ;;      {\"activationF\" : \"sigmoid\", \"weights\" : [0.7,0.6,-0.1]},
 ;;      {\"activationF\" : \"sigmoid\", \"weights\" : [-0.8,-0.1,-0.7]}],
-;;      [{\"activationF\" : \"sigmoid\", \"weights\" : [0.5,-0.3,-0.4,-0.5]}]]"
+;;     [{\"activationF\" : \"sigmoid\", \"weights\" : [0.5,-0.3,-0.4,-0.5]}]]"
 ```
 
 ### Create a neural network by providing its json
