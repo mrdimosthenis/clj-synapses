@@ -7,7 +7,7 @@ A **neural networks** library for **Clojure**!
 ### Install synapses
 
 ```clojure
-[synapses-clj "1.0.0-RC1"]
+[com.github.mrdimosthenis/synapses-clj "1.0.0"]
 ```
 
 ### Load the `net` namespace
