@@ -11,4 +11,8 @@
   :pom-addition [:developers
                  [:developer
                   [:id "mrdimosthenis"]
-                  [:name "Dimos Michailidis"]]])
+                  [:name "Dimos Michailidis"]]]
+  :deploy-repositories [["clojars" {:url           "https://clojars.org/repo"
+                                    :username      :env/clojars_username
+                                    :password      :env/clojars_password
+                                    :sign-releases false}]])
