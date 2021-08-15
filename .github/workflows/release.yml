@@ -1,0 +1,19 @@
+name: Release
+on:
+  push:
+    branches: [ master, main ]
+    tags: [ "*" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: lein deps
+      - name: Run tests
+        run: lein test
+      - name: Publish
+        env:
+          CLOJARS_USER: ${{ secrets.CLOJARS_USERNAME }}
+          CLOJARS_PASS: ${{ secrets.CLOJARS_PASSWORD }}
+        run: lein deploy clojars

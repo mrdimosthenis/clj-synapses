@@ -1,4 +1,4 @@
-(defproject org.clojars.mrdimosthenis/clj-synapses "1.0.3"
+(defproject org.clojars.mrdimosthenis/clj-synapses "1.0.4"
   :description "A neural networks library for Clojure"
   :url "https://github.com/mrdimosthenis/Synapses"
   :license {:name "MIT"
